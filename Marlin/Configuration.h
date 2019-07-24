@@ -938,7 +938,7 @@
  * A total of 3 or more adds more slow probes, taking the average.
  */
  // DOSS - This probes total of multiple and extra 
-#define MULTIPLE_PROBING 4
+#define MULTIPLE_PROBING 2
 //#define EXTRA_PROBING    1
 
 /**

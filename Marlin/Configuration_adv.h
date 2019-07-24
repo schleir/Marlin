@@ -589,7 +589,7 @@
    * If the machine cannot raise the probe fast enough after a trigger, it may enter a fault state.
    */
   // DOSS: tested it once and got an error of 0.02 in two runs
-  #define BLTOUCH_HS_MODE
+  //#define BLTOUCH_HS_MODE
 
   // Safety: Enable voltage mode settings in the LCD menu.
   //#define BLTOUCH_LCD_VOLTAGE_MENU
