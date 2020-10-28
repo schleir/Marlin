@@ -1242,7 +1242,8 @@
   /**
    * Auto-report SdCard status with M27 S<seconds>
    */
-  //#define AUTO_REPORT_SD_STATUS
+  // https://community.octoprint.org/t/octoprint-connected-to-printer-but-not-detecting-print-job-skr-mini-e3/23264/3
+  #define AUTO_REPORT_SD_STATUS
 
   /**
    * Support for USB thumb drives using an Arduino USB Host Shield or
