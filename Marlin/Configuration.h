@@ -2368,6 +2368,7 @@
 #endif
 
 // Support for Adafruit NeoPixel LED driver
+// Updated the Neopixel library include path to relative from here - https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/286#issuecomment-670594755
 #define NEOPIXEL_LED
 #if ENABLED(NEOPIXEL_LED)
   #define NEOPIXEL_TYPE   NEO_GRB // NEO_GRBW / NEO_GRB - four/three channel driver type (defined in Adafruit_NeoPixel.h)
